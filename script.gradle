@@ -55,8 +55,8 @@ artifacts {
 }
 
 bintray {
-    user = System.getenv("BINTRAY_USER")
-    key = System.getenv("BINTRAY_APIKEY")
+    user = System.getenv("HIPCAR_BINTRAY_USER")
+    key = System.getenv("HIPCAR_BINTRAY_APIKEY")
 
     configurations = ['archives']
     pkg {
